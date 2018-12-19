@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Victoria Xu:UIUX</title>
+  <link rel="stylesheet" media="screen" href="css/ab.css">
+</head>
+<body>
+  <div class = "artLogo">
+  <a href= "art.html"> <img src = "art_logo.png" style = "width: 80px;"> </img> </a>
+  </div>
+
+  <div class = "uiuxLogo">
+  <a href= "UIUX.html" > <img src = "UIUX_logo.png" style = "width: 80px; opacity: 1.0;"> </img> </a>
+  </div>
+
+  <div class = "vxxLogo">
+    <a href= "../index.html" ><img src = "VXX.png" style = "width: 200px;"> </img></a>
+  </div>
+
+  <div class = "videoLogo">
+  <a href= "film.html"> <img src = "film_logo.png" style = "width: 90px;"> </img> </a>
+  </div>
+
+  <div class = "codingLogo">
+  <a href= "#"> <img src = "coding_logo.png" style = "width: 80px;"> </img> </a>
+  </div>
+
+  <div class = "redLine">
+   <img src = "redLine.png"> </img>
+  </div>
+
+  <div class = "title">
+  <img src = "ab_in_icon.png" style ="width:400px;"> </img>
+  </div>
+
+  <div class = "subtitle">
+    <p> Goal: Propose redesign changes for a Memphis Taxi website using user testing and A/B testing. The main changes I'm testing for the site are, other than a more uniform grid layout for images and test, if the buttons should be red or blue, and if they should say "Learn more" or "Reserve now".
+    </p>
+  </div>
+
+  <div class = "subtitle1">
+    <p> For user testing, I designed the site as an app on a mobile phone with the red button saying "Learn more". I then sent this prototype to users of usertesting.com to get feedback on the effectiveness and/or drawbacks of the design.
+    </p>
+  </div>
+
+  <div class = "oldSite">
+    <a href= "ab_versions/templates/orig.html"> <img src = "ab_versions/orig_taxi.png" style = "width: 350px;"> </img> </a>
+  </div>
+
+  <div class = "newSite">
+   <a href= "https://invis.io/6VOSBRV9P2E"> <img src = "memphisApp.png" style = "width: 500px;"> </img> </a>
+  </div>
+
+  <div class = "subtitle2">
+    <h2 style= "font-size: 20px; align: center; "> User Testing Results </h2>
+  </div>
+
+  <table>
+  <tr>
+    <th></th>
+    <th><h2>Completion Rate</h2></th>
+    <th><h2>Error Count</h2></th>
+    <th><h2>Time on Task</h2></th>
+
+  </tr>
+  <tr>
+    <td style = "background-color: #4671EE; opacity: 0.6; color:white;font-size: 20px;">Sub-task 1: Learn about each company</td>
+    <td>100%</td>
+    <td >0</td>
+    <td> 5:46 + 2:53 + 2:30 + = 11:09 / 3 = 3:23</td>
+  </tr>
+  <tr>
+    <td style = "background-color: white; color:#F9C41E;font-size: 20px;">Sub-task 2: Reserve a taxi</td>
+    <td>100%</td>
+    <td >3</td>
+    <td>1:51 + 1:40 + 2:00 = 5:31 / 3 = 1:50</td>
+  </tr>
+  <tr>
+    <td style = "background-color: #4671EE; opacity: 0.6; color:white;font-size: 20px;">Sub-task 3: Submit/confirm the reservation</td>
+    <td>0%</td>
+    <td >3</td>
+    <td>0:00</td>
+  </tr>
+</table>
+
+  <div class = "subtitle3">
+    <p style = "color:#EA4E34"> Hypothesis: </p>
+      <p>It will take users a long time to decide which taxi company to book because I designed my website with the "Learn more" button, and I didn't have a feature telling users the exact price of their trip early on. Instead, only until users actually press reserve can they get an exact estimate. Before this, price information is only available through complicated rates that users may find hard to calculate, causing people to backtrack from the reserve page more.
+    </p>
+  </div>
+
+  <div class = "subtitle4">
+      <p style = "color:#EA4E34"> Result: </p>
+    <p> The users were able to complete the first two tasks well, but stumbled in 2 main places: realizing reserve and submit were separate subtasks, thus the 0% completion rate for sub-task 3 since users completed this task in sub-task 2. The second main place was predicted: once users discovered that exact estimates could be seen on the reserve page, they re-evaluated and backtracked as a result. This is why the average time on task 2, reserve, was so long (more than a minute). This
+      tells me that exact price estimates for trips should be given much earlier.</p> <br> <br>
+    <p style = "color:#EA4E34">
+      However, I still didn't know if the red "Learn More" button versus a blue "Reserve" button would make any difference to users, so I tested the difference through A/B testing, predicting that there would be a significant difference, with the Learn More causing more clicks (red color), and also a longer dwell time (Learn More encourages users to explore).
+    </p>
+  </div>
+
+
+
+  <div class = "versionA">
+   <a href= "ab_versions/static/B.html"> <img src = "ab_versions/ab_A.png" style = "width: 400px;"> </img> </a>
+  </div>
+
+  <div class = "versionB">
+   <a href= "ab_versions/static/B.html"> <img src = "ab_versions/ab_B.png" style = "width: 400px;"> </img> </a>
+  </div>
+
+  <div class = "subtitle6">
+    <p> I had a large sample of users click through versions A and B to conduct A/B testing. Version A was reformatted to a grid but maintained a blue button saying "Reserve". Version B had the red button saying "Learn More" instead. </p>
+  </div>
+
+  <div class = "subtitle7">
+
+    <h2 style= "font-size: 20px; align: center; "> A/B testing data </h2>
+  </div>
+
+  <div class = "data">
+   <img src = "ab_versions/ab_data2.png" style="width: 1000px;"> </img>
+   <img src = "ab_versions/ab_data1.png" style="width: 1000px;"> </img>
+  </div>
+
+  <div class = "subtitle5">
+    <p style = "color:#EA4E34"> Analysis Summary and Final Conclusions: </p>
+
+    <p> The difference between versions A and B were insignificant (as shown in the metrics and p-values calculated), so my proposal to Memphis Taxi would be to focus on changing the information provided on the main page (as pointed out through remote user testing). The website should give estimates of users’ trips on the main page, this way users can compare prices of all four options at the same time. There could be a select trip feature at the top, which will change the estimates for each company accordingly. This way, users can also see the company descriptions next to the prices and can access all the information they need before finally reserving–creating a far more efficient and useful interface.
+    </p>
+  </div>
+
+</body>
