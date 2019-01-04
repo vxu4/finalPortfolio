@@ -110,12 +110,12 @@ h2{
 
  .d {
    padding-left:115px;
-   grid-column: 3/8;
+   grid-column: 3/10;
    grid-row: 7/8;
  }
 
  .e {
    padding-left:115px;
-   grid-column: 3/8;
+   grid-column: 3/10;
    grid-row: 8/9;
  }
