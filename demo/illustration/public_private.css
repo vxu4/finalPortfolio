@@ -2,7 +2,7 @@ body{
   font:normal 75% Arial, Helvetica, sans-serif;
 	display:grid;
 	grid-template-columns: 7.7% 7.7% 7.7% 7.7% 7.7% 7.7% 7.7% 7.7% 7.7% 7.7% 7.7% 7.7% 7.7%  ;
-	grid-template-rows:  120px 5px 40px 420px 15px 150px 15px 200px;
+	grid-template-rows:  120px 5px 150px 900px 880px 700px 1000px 800px ;
 }
 
 p {
@@ -31,25 +31,13 @@ h2{
 	 filter: alpha(opacity=100);
  }
 
- table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-  grid-column: 3/12;
-  grid-row: 8/9;
-  margin-top:50px;
-}
-
-td, th {
-  border: 1px solid #EA4E34;
-  text-align: left;
-  padding: 20px;
-  color: #1A40A0;
-}
-
-td:nth-child(odd) {
-  color: #4671EE;
-}
+ .title{
+   padding-top: 40px;
+   padding-left:40px;
+   grid-column: 5/13;
+   grid-row: 3/4;
+   align: center;
+ }
 
  .redLine{
    grid-column: 1/13;
@@ -100,29 +88,34 @@ td:nth-child(odd) {
    max-width: 100px;
  }
 
- .animation {
+ .a {
    padding-top: 40px;
-   padding-left:7px;
-   grid-column: 6/8;
+   padding-left:30px;
+   grid-column: 4/10;
    grid-row: 4/5;
  }
 
- .twentyTwenty {
-   padding-top: 40px;
-   padding-left:20px;
-   grid-column: 10/12;
-   grid-row: 4/5;
- }
-
- .hands  {
-   padding-top: 40px;
-   padding-left:100px;
-   grid-column: 1/5;
-   grid-row: 4/5;
- }
-
- .publicPrivate {
-   padding-left:20px;
-   grid-column: 2/5;
+ .b {
+   padding-left:40px;
+   grid-column: 3/11;
    grid-row: 5/6;
+ }
+
+ .c {
+   padding-left:90px;
+   padding-bottom:80px;
+   grid-column: 4/10;
+   grid-row: 6/7;
+ }
+
+ .d {
+   padding-left:115px;
+   grid-column: 3/8;
+   grid-row: 7/8;
+ }
+
+ .e {
+   padding-left:115px;
+   grid-column: 3/8;
+   grid-row: 8/9;
  }
