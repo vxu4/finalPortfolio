@@ -129,6 +129,6 @@ td:nth-child(odd) {
 
  .intact {
    padding-left:7px;
-   grid-column: 6/8;
+   grid-column:6/8;
    grid-row: 5/6;
  }
