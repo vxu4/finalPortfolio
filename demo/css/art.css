@@ -115,10 +115,11 @@ td:nth-child(odd) {
  }
 
  .redReflection {
-   padding-top: 40px;
-   padding-left:100px;
-   grid-column: 9/12;
-   grid-row: 4/5;
+   padding-left:7px;
+
+   padding-top: 0px;
+   grid-column:6/8;
+   grid-row: 5/6;
  }
 
  .publicPrivate {
@@ -128,7 +129,14 @@ td:nth-child(odd) {
  }
 
  .intact {
-   padding-left:7px;
-   grid-column:6/8;
+   padding-left:100px;
+   padding-top: 40px;
+   grid-column: 9/12;
+   grid-row: 4/5;
+ }
+
+ .VRValley {
+   padding-left:100px;
+   grid-column: 9/12;
    grid-row: 5/6;
  }
